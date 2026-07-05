@@ -28,7 +28,7 @@ class RegisterRequest extends FormRequest
         ];
     }
 
-    public function message()
+    public function messages()
     {
         return [
             'name.required' => '名前は必須です',
